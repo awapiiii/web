@@ -1,0 +1,51 @@
+body {
+  background-color: #FFFAE1; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  text-align: center; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+#student-id, #name {
+  color: #6F4F28; 
+  background-color: #F4C2A4; 
+  border: 2px solid #6F4F28; 
+  border-radius: 6px; 
+  padding: 10px;
+  margin: 20px;
+  width: fit-content;
+}
+
+#photo img {
+  width: 400px;
+  height: 300px;
+  border: 3px solid green;
+  border-radius: 10px; 
+  margin-top: 20px; 
+}
+
+.button {
+  display: inline-block;
+  background-color: #F4C2A4; 
+  color: #6F4F28; 
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none; 
+  border-radius: 5px; 
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049; 
+}
